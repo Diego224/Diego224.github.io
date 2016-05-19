@@ -6,6 +6,6 @@ body{
 h1, h2{
 	color: #cccccc
 }
-h3, p{
+h3, p, ul{
 	color: grey;
 }
