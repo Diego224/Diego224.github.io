@@ -1,0 +1,45 @@
+header{
+	padding: 20px;
+	font-size: 24px;
+	color: #E3E2FF
+}
+h1{
+	font-size: 80px;
+	color: #E3E2FF
+}
+img{
+	width: 32%;
+
+}
+body{
+	background: url("images/scene.jpg");
+	background-size: cover;
+	font-family: helvetica, Arial, sans-serif
+	line-height:1.3;
+}
+nav,h1,#Slogan {
+	text-align: center;
+}
+h1{
+	color: white;
+}
+nav,#Slogan{
+	background-color: #E3E2FF;
+}
+main{
+	font-size: 24px;
+	color: white;
+}
+#Slogan{
+	font-size: 40px;
+	color: purple;
+}
+a{
+	color: purple;
+	text-decoration: none;
+}
+footer{
+	background-color: #E3E2FF;
+	padding: 5px;
+	text-align: center;
+}
