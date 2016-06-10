@@ -1,45 +1,96 @@
 header{
 	padding: 20px;
 	font-size: 24px;
-	color: #E3E2FF
-}
-h1{
-	font-size: 80px;
-	color: #E3E2FF
-}
-img{
-	width: 32%;
+	color: black;
 
 }
+h1{
+	font-size: 60x;
+	color: white;
+	margin-top: -20px;
+
+}
+hr{
+	margin-top: -20px;
+}
+h2{
+	color: white;
+	text-align: center;
+	margin-top: -18px;
+	margin-right: 490px;
+	margin-left: 490px;
+}
 body{
-	background: url("images/scene.jpg");
+	background: url("../images/back.jpg");
 	background-size: cover;
-	font-family: helvetica, Arial, sans-serif
+	font-family: Century, helvetica, Arial, sans-serif
 	line-height:1.3;
 }
-nav,h1,#Slogan {
+#box {
+	background-color: black;
+	background-size: cover;
+	width: 400px;
+	height: 700px;
+	display: inline-block;
+}	
+#box1 {
+	background: url("../images/tennis.jpg");
+background-color: black;
+	background-size: cover;
+	width: 468.7px;
+	height: 700px;
+	display: inline-block;
+	
+}
+#box2 {
+	background: url("../images/grad.jpg");
+	background-color: black;
+	background-size: cover;
+	width: 468.7px;
+	height: 700px;
+	display: inline-block;
+	
+}
+#box3 {
+	background: url("../images/piano.jpg");
+	background-color: black;
+	background-size: cover;
+	width: 468.7px;
+	height: 700px;
+	display: inline-block;	
+	
+}
+#box4 {
+	background: url("../images/event.jpg");
+	background-color: black;
+	background-size: cover;
+	width: 468.7px;
+	height: 700px;
+	display: inline-block;	
+
+}
+.phototitle{
 	text-align: center;
+	background-color: white;
+	color: black;
 }
-h1{
-	color: white;
-}
-nav,#Slogan{
-	background-color: #E3E2FF;
+#firstlink{
+	margin-left: 40px;
 }
 main{
 	font-size: 24px;
 	color: white;
+
 }
-#Slogan{
-	font-size: 40px;
-	color: purple;
-}
+
 a{
-	color: purple;
+	color: grey;
 	text-decoration: none;
+	font-size: 30px;
 }
 footer{
 	background-color: #E3E2FF;
 	padding: 5px;
 	text-align: center;
 }
+
