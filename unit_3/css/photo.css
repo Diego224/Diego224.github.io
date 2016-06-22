@@ -6,19 +6,24 @@ header{
 	font-size: 1.50em;
 	color: black;
 }
+
+
 h1{
 	font-size: 1.75em;
 	color: #E52B21;
 	font-family: 'Poiret One', cursive;
-}
-hr{
 	
 }
+nav{
+	border-bottom: 4px solid white;
+	margin-top: -30px;
+}
+
 h2{
-	color: #eee;
+	color: #888;
 	text-align: center;
-	margin-right: 24em;
-	margin-left: 24em;
+	margin: auto;
+
 }
 body{
 	background: url("../images/back.jpg");
@@ -29,10 +34,11 @@ body{
 img {
 	width: 25%;
 }
-p{
+p,footer{
 	color: #555555;
 	font-size: 24px;
 }
+
 }
 .phototitle{
 	text-align: center;
