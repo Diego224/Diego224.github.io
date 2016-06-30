@@ -51,10 +51,30 @@ a{
 	clear: both;
 	height: 0;
 }
-img {
+.boxes {
 	width: 25%;
 	float: left;
+	position: relative;
 	
+}
+
+.boxes h3 {
+	position: absolute;
+	width: 100%;
+	margin-top: 1.2em;
+	background-color: white;
+	text-align: center;
+	color:black;
+
+
+}
+
+.boxes h3:hover{
+	color:#E52B21;
+}
+
+.boxes img {
+	width: 100%;
 }
 
 
