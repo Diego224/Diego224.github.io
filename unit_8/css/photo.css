@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+body{
+	background: white;
+	background-size: 100%;
+
+
+	font-family: 'Comfortaa', cursive;
+	line-height:1.3;
+	color: #454545;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 1.75em;
+	color: #E52B21;
+	font-family: 'Poiret One', cursive;
+	font-size: 5em;
+}
+nav{
+	border-bottom: 4px solid white;
+	size: 6em;
+	text-align: center;
+	
+}
+.nav{
+	text-decoration: none;
+	text-align: center;
+	font-size: 2em;
+	margin-left: .5em;
+	padding: 0 1em;
+ 	background-color: rgba(44,44,44,.75);
+ 	color: #ffffff;
+}
+
+a:hover{
+	color:#E52B21;
+}
+
+a{
+	text-decoration: none;
+	color:#454545;
+	font-size: 2em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.boxes {
+	width: 25%;
+	float: left;
+	position: relative;
+	
+}
+
+.boxes h3 {
+	position: absolute;
+	width: 90%;
+	margin-top: 1.2em;
+	background: white ;
+	text-align: center;
+	background-opacity: 2;
+	display: block;
+ 	background-color: rgba(44,44,44,.75);
+ 	color: #ffffff;
+ 	padding: .375em;
+
+
+}
+
+.boxes h3:hover{
+	color:#E52B21;
+
+}
+
+.boxes img {
+	width: 100%;
+}
+
+
+#email,#mail{
+	font-size: 1.2em;
+}
+
+footer{
+	background-color: white;
+	padding: 5px;
+	text-align: center;
+	font-size: 1em;
+	color: #454545;
+}
+
+
+ @media only screen and (min-width: 1800px) {
+ 	.boxes {width: 25%;
+ 	}
+}
+
+ @media only screen and (max-width: 1024px) {
+ 	.boxes h3 {
+ 		display: block;
+ 		background-color: rgba(44,44,44,.75);
+ 		color: #ffffff;
+ 		padding: .375em;
+ 	}
+
+ 	.boxes:hover > img {
+		opacity: 1;
+	}
+
+ @media only screen and (max-width: 800px) {
+ 	.boxes {
+ 		width: 100%;
+ 	}
+}
+
+ @media only screen and (max-width: 700px) {
+ 	h1 {
+ 		display: block;
+ 		text-align: center;
+ 		margin-right: 0;
+ 	}
+ 	.nav {
+ 		display: block;
+ 		text-align: center;
+	}
+	header, footer {
+		padding: 2.25em 0;
+}
+
+@media only screen and (max-width: 475px) {
+ 	h1 {
+ 		font-size: 1em;
+	}
+	header, footer {
+		padding: 1.5em 0;
+}
