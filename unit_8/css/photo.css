@@ -123,12 +123,13 @@ footer{
  	h1 {
  		display: block;
  		text-align: center;
+ 		font-size: 3.5em;
  	
  	}
  	.nav {
  		display: block;
  		text-align: center;
- 		margin-left: 0; 
+ 		margin: 0; 
 	}
 	header, footer {
 		padding: 2.25em 0;
