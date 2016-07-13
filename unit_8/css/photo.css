@@ -123,20 +123,13 @@ footer{
  	h1 {
  		display: block;
  		text-align: center;
- 		margin-right: 0;
+ 	
  	}
  	.nav {
  		display: block;
  		text-align: center;
+ 		margin-left: 0; 
 	}
 	header, footer {
 		padding: 2.25em 0;
-}
-
-@media only screen and (max-width: 475px) {
- 	h1 {
- 		font-size: 10em;
-	}
-	header, footer {
-		padding: 1.5em 0;
 }
