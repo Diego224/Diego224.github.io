@@ -147,20 +147,20 @@ footer{
  	}
 
  	#first{
- 		margin-top: 4.6em;
+ 		margin-top: 15.8em;
  	}
  		h1 {
  		display: inline;
  		text-align: left;
  		font-size: 3.1em;
- 		margin-top: 1.5em;
+ 		margin-top: 2.5em;
  		padding: 0 1.5em 0 0;
 
  	}
  	.nav {
  		display: inline;
  		text-align: center;
- 		margin-top: -1em;
+ 		margin-top: 1em;
  		margin-left: 0;
  		padding: 0 .2em;
 	}
