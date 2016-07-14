@@ -12,6 +12,28 @@ body{
 	font-size: 16px;
 }
 
+
+h1 {
+	position: absolute;
+	width: 40%;
+	margin-top: 1.2em;
+	text-align: center;
+	background-opacity: 4;
+ 	background-color: rgba(44,44,44,.75);
+ 	color: #ffffff;
+ 	padding: .375em;
+}
+nav {
+	position: absolute;
+	width: 100%;
+	margin-top: 1.2em;
+	text-align: center;
+	background-opacity: 4;
+ 	color: #ffffff;
+ 	padding: .375em;
+}
+
+
 h1{
 	font-size: 1.75em;
 	color: #E52B21;
@@ -19,7 +41,6 @@ h1{
 	font-size: 5em;
 }
 nav{
-	border-bottom: 4px solid white;
 	size: 6em;
 	text-align: center;
 	
@@ -50,6 +71,10 @@ a{
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+#first{
+	width: 100%;
 }
 .boxes {
 	width: 25%;
@@ -86,6 +111,9 @@ a{
 #email,#mail{
 	font-size: 1.2em;
 }
+#email2,#mail2{
+	display: none;
+}
 
 footer{
 	background-color: white;
@@ -117,20 +145,27 @@ footer{
  	.boxes {
  		width: 100%;
  	}
-}
 
- @media only screen and (max-width: 700px) {
- 	h1 {
- 		display: block;
- 		text-align: center;
+ 	#first{
+ 		margin-top: 4.6em;
+ 	}
+ 		h1 {
+ 		display: inline;
+ 		text-align: left;
  		font-size: 3.1em;
- 	
+ 		margin-top: 1.5em;
+ 		padding: 0 1.5em 0 0;
+
  	}
  	.nav {
- 		display: block;
+ 		display: inline;
  		text-align: center;
- 		margin: 0; 
+ 		margin-top: -1em;
+ 		margin-left: 0;
+ 		padding: 0 .2em;
 	}
+
 	header, footer {
 		padding: 2.25em 0;
+}
 }
