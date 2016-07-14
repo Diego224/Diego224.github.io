@@ -157,6 +157,9 @@ footer{
  		padding: 0 2em 0 0;
 
  	}
+ 	.boxes{
+ 		margin-top: -1em;
+ 	}
  	.nav,nav {
  		display: inline;
  		text-align: center;
